@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Welcome Human :)</Title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/e819ef0385.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./style.css">
+        <script src="./script.js"></script>
+        
+    </head>
+    <body>
+        <div class="base_container">
+            <section id="Head" class="Head">
+                <h1 id="name">I'm Milana K S</h1>
+                <h3 id="designation">Learn. Practice. Spread</h3>
+                <ul class="connect">
+                    <button id="linkedin" onclick = "weblinks(1)"><i class="fa-brands fa-linkedin fa-lg"></i> LinkedIn</button>
+                    <button id="mail" onclick= "weblinks(2)"><i  class="fa-brands fa-google fa-sm"></i> mail</button>
+                    <button id="github" onclick= "weblinks(3)"><i class="fa-brands fa-github fa-lg"></i> Github</button>
+                </ul> 
+            </section>
+            <figure class="video">
+                <video id="vid_element" loop autoplay muted height="360"
+                      <source src = "https://video.wixstatic.com/video/11062b_e1f47b49c8b24fdcabeaa5b5ccd2c703/480p/mp4/file.mp4" type="video/mp4">
+                </video>
+            </figure>
+            
+            <section class="Info">
+                <section class="About">
+                    <h2>About Me.</h2>
+                    <p>I'm many things</p>
+                    <h3 style="color:White">_________________________</h3>
+                    <ul type="none" style="margin-left: -50px;">
+                        <li>#CREATIVE</li>
+                        <li>#TRUSTWORTHY</li>
+                        <li>#MANAGEMENT</li>
+                        <li>#TALK</li>
+                    </ul>
+                    <h3 style="color:White">_________________________</h3>
+                    <section class="Skills">
+                        <h2>Skills</h2>
+                        <ul type="none">
+                        <li>
+                            <span class="text">Core Java</span>
+                        
+                        </li>
+                        <li>
+                            <span class="text">SQL</span>
+                          
+                        </li>
+                        <li>
+                            <span class="text">Data Structure & algorithms</span>
+                            
+                        </li>
+                        <li>
+                            <span class="text">Html & CSS</span>
+                            
+                        </li>
+                        <li>
+                            <span class="text">JavaScript</span>
+                          
+                        </li>
+                        <li>
+                            <span class="text">React Js</span>
+                            
+                        </li>
+                        </ul>
+                    </section>
+                </section>
+                
+                <section class="Education">
+                    <nav class="navbar" style="--td:1.2s">
+                        <div class="block-reveal" style="--bc: #4040bf; --d: .5s"></div>
+                        <ul class="main-nav">
+                            <li><button class="nav-btn" id="edubtn" onclick="fadecontainers(education)">Education</button></li>
+                            <li><button class="nav-btn" id="pjtbtn" onclick="fadecontainers(projects)">Projects</button></li>
+                            <li><button class="nav-btn" id="contbtn" onclick="fadecontainers(contact)">Contact</button></li>
+                    </nav>
+
+                    <div class="nav_container">
+                        <fieldset class="fadeout" id="education">
+                            <legend class="legend"><i class="fa-solid fa-graduation-cap fg-sm"></i> Acadamic Qualifications
+                            </legend>
+                            <ul>
+                                <li>
+                                  <span>
+                                  <h3>Visvesvaraya Technological University
+                                </h3>
+                                  <h4 style="margin-top: -14px;">Adichunchanagiri Institute of Technology, chikkamagaluru</h4>
+                                  <h4 style="margin-top: -8px;">2019 - 2023</h4>
+                                  <h5 style="background-color:#000; width:fit-content; color:snow; border-radius:3px; padding:5px; letter-spacing: 2px;"> BE Computer Science </h5>
+                                  </span>
+                                </li>
+                              </ul>
+                        </fieldset>
+                        <fieldset class="fadeout" id="projects">
+                            <legend class="legend"><i class="fa-solid fa-flask"></i>  Projects</legend>
+                            <ul>
+                                <li>
+                                  <span>
+                                  <h3>Student Management System.</h3>
+                                  <h4 style="margin-top: -10px;">It’s a student Management Application created using DBMS, SQL,
+                                    Python.
+                                    </h4>
+                                  <ul class="Prog_lan">
+                                    <li>Python</li>
+                                    <li>sql</li>
+                                    <li>html & css</li>
+                                    <li>javascript</li>
+                                  </ul>
+                                  </span>
+                                </li>
+                                <li>
+                                    <span>
+                                    <h3>Movie booking application</h3>
+                    
+                                    <ul class="Prog_lan">
+                                      <li>reactjs</li>
+                                      <li>nodejs</li>
+                                      <li>Express</li>
+                                      <li>Mongodb</li>
+                                    </ul>
+                                    </span>
+                                  </li>
+                              </ul>
+                        </fieldset>
+                        <fieldset class="fadeout" id="contact">
+                            <legend class="legend"><i class="fa-solid fa-user"></i> Contact</legend>
+                            <ul>
+                                <li>
+                                    <span>
+                                        <h3>Address</h3>
+                                        <h4 style="margin-top: -10px;">#52, main road Mugalihalli(p),channagiri(T),davangere(D),karnataka-577213</h4>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <h3>Connect</h3>
+                                        <h4 style="margin-top: -10px">+91 XXXXXXXXXX</h4>
+                                    </span>
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </div>
+                </section>
+            </section>
+
+        </div>
+    </body>
+</html>
